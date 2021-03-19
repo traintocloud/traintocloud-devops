@@ -46,8 +46,8 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone -b local-setup https://github.com/devopshydclub/vprofile-project.git
-cd vprofile-project
+git clone -b local-setup https://github.com/traintocloud/traintocloud-devops.git
+cd traintocloud-devops
 mvn install
 systemctl stop tomcat
 sleep 60
