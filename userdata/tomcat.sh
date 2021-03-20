@@ -35,7 +35,7 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone -b vp-rem https://github.com/devopshydclub/vprofile-repo.git
+git clone -b vp-rem https://github.com/traintocloud/traintocloud-devops.git
 cd vprofile-repo
 mvn install
 systemctl stop tomcat
